@@ -25,7 +25,7 @@ h2{font-size:clamp(1.3rem,4.5vw,1.7rem);margin:2rem 0 .7rem}
 .btn{display:inline-block;padding:12px 18px;border-radius:10px;font-weight:700;text-decoration:none;text-align:center}
 .btn.call{background:#ffc947;color:#0b2545}
 .btn.text{background:#fff;color:#0b2545;border:2px solid #0b2545}
-.btn.book{background:transparent;color:#0b2545;border:2px solid #9fb8d3;font-weight:600}
+.btn.book{background:#22c55e;color:#06210f;border:2px solid #22c55e;font-weight:800;box-shadow:0 4px 14px rgba(34,197,94,.45)}.btn.book:hover{background:#16a34a;border-color:#16a34a;color:#fff}
 .btn:hover{filter:brightness(1.05)}
 .ctas{display:flex;flex-wrap:wrap;gap:10px;margin:1rem 0}
 .hide-sm{display:none}
@@ -35,8 +35,8 @@ h2{font-size:clamp(1.3rem,4.5vw,1.7rem);margin:2rem 0 .7rem}
 .hero h1{color:#fff}
 .hero a:not(.btn){color:#bfe6ff}
 .hero .btn.text{border-color:#fff}
-.hero .btn.book,.band .btn.book{color:#fff;border-color:rgba(255,255,255,.45)}
-.hero .btn.book:hover,.band .btn.book:hover{background:rgba(255,255,255,.1)}
+.hero .btn.book,.band .btn.book{color:#06210f;border-color:#22c55e}
+.hero .btn.book:hover,.band .btn.book:hover{background:#16a34a;color:#fff}
 .lead{font-size:1.1rem;color:#e3f1fc;max-width:680px}
 .kicker{margin:0 0 .4rem;color:#a9d6f5;font-size:.9rem;font-weight:600}
 .ticks{display:flex;flex-wrap:wrap;gap:8px;margin:0;font-size:.9rem}
@@ -90,7 +90,7 @@ h2{font-size:clamp(1.3rem,4.5vw,1.7rem);margin:2rem 0 .7rem}
 .mbar small{font-size:.75rem;font-weight:600}
 .mbar .m-call{flex:1.5;background:#ffc947;color:#0b2545;font-size:1.05rem}
 .mbar .m-text{background:#0b2545;color:#fff}
-.mbar .m-book{background:#13386a;color:#e6f3ff;font-weight:600;border-left:1px solid rgba(255,255,255,.15)}
+.mbar .m-book{background:#22c55e;color:#06210f;font-weight:600;border-left:1px solid rgba(255,255,255,.15)}
 
 @media (min-width:640px){
   .cards{grid-template-columns:1fr 1fr}
